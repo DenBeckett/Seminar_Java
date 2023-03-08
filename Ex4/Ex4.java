@@ -1,7 +1,9 @@
 package Ex4;
 
 public class Ex4 {
+    public static void main(String[] args) {
     System.out.println(isArraySymmetrical(new int[] {3,4,5,6,7,8,3}));
+    }
 
     public static boolean isArraySymmetrical(int[] arr) {
         for (int i = 0; i < arr.length / 2; i++) {
